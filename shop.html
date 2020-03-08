@@ -1,0 +1,231 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Shop</title>
+    
+    <!-- Boostrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    
+    <!-- My CSS -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:500" rel="stylesheet">
+    
+    <!-- JQuery -->
+    <script type="text/javascript"
+    src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    
+    <script src="lightbox.js"></script>
+    
+    <script type="text/javascript">
+        
+        $(document).ready(function() {
+            $("img.rollover").hover(
+                function() { this.src = this.src.replace("_off", "_on");
+                },
+                function() { this.src = this.src.replace("_on", "_off");
+                }
+            );//end hover
+        });//end document ready
+    
+    </script>
+</head>
+    
+<body>
+    
+<div class="container-fluid">
+    
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+  <a class="navbar-brand" href="index.html">ROOSTER'S COFFEE CO.</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="shop.html">SHOP</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="locations.html">LOCATIONS</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="subscriptions.html">SUBSCRIPTIONS</a>
+      </li>
+    <li class="nav-item">
+        <a class="nav-link" href="wholesale.html">WHOLESALE</a>
+      </li> 
+    <li class="nav-item">
+        <a class="nav-link" href="careers.html">CAREERS</a>
+      </li> 
+    <li class="nav-item">
+        <a class="nav-link" href="FAQ.html">FAQ</a>
+      </li> 
+    </ul>
+  </div>  
+</nav>
+    
+<div id="shop" class="row">
+    <div id="shop-img" class="col">
+        <!-- Hayes, Gregory. “Coffee, Bean, Roasting and Machine HD Photo on Unsplash.” Beautiful Free Images & Pictures, unsplash.com/photos/Jmc0PORTQ-A. -->
+        <img id="shop-img" class="img-fluid mx-auto d-block" src="shop-roaster.jpg">
+    </div>
+</div>
+    
+<div class="row">
+    <div class="col">
+        <h1 id="shop-heading" class="display-4">We've Got What You Need</h1>
+    </div>
+</div>
+    
+<div id="shop-rows" class="row">
+    <div class="col-4">
+        <div id="wrapper-banana">
+            <h4 id="coffee-headings">Bananas Foster</h4>
+            <!-- “Yellow Banana Fruit.” Free Stock Photos, www.pexels.com/photo/yellow-banana-fruit-38283/. -->
+            <img class="img-fluid mx-auto d-block" src="bananas.jpg">
+            <button id="shop-btn" type="submit" class="btn btn-dark">Purchase</button>
+        </div>
+    </div>
+    <div class="col-4">
+        <div id="wrapper-cinnamon">
+            <h4 id="coffee-headings">Cinnamon Spice</h4>
+            <!-- “Brown Wrapped Tobacco.” Free Stock Photos, www.pexels.com/photo/brown-wrapped-tobacco-47046/. -->
+            <img class="img-fluid mx-auto d-block" src="cinnamon.jpg">
+            <button id="shop-btn" type="submit" class="btn btn-dark">Purchase</button>
+        </div>
+    </div>
+    <div class="col-4">
+        <div id="wrapper-honey">
+            <h4 id="coffee-headings">Honey</h4>
+            <!-- “Honey on White Bowl.” Free Stock Photos, www.pexels.com/photo/honey-on-white-bowl-33260/. -->
+            <img class="img-fluid mx-auto d-block" src="honey.jpg">
+            <button id="shop-btn" type="submit" class="btn btn-dark">Purchase</button>
+        </div>
+    </div>
+</div>
+    
+<div id="shop-rows" class="row">
+    <div class="col-4">
+        <div id="wrapper-chocolate">
+            <h4 id="coffee-headings">Chocolate</h4>
+            <!-- “Brown Chocolate Bar.” Free Stock Photos, www.pexels.com/photo/brown-chocolate-bar-40845/. -->
+            <img class="img-fluid mx-auto d-block" src="chocolate.jpg">
+            <button id="shop-btn" type="submit" class="btn btn-dark">Purchase</button>
+        </div>
+    </div>
+    <div class="col-4">
+        <div id="wrapper-blueberry">
+            <h4 id="coffee-headings">Blueberry</h4>
+            <!-- “Free Stock Photo of Berries, Blue, Blueberries.” Free Stock Photos, www.pexels.com/photo/berries-blue-blueberries-blueberry-131054/. -->
+            <img class="img-fluid mx-auto d-block" src="blueberries.jpg">
+            <button id="shop-btn" type="submit" class="btn btn-dark">Purchase</button>
+        </div>
+    </div>
+    <div class="col-4">
+        <div id="wrapper-cherry">
+            <h4 id="coffee-headings">Spring Cherry</h4>
+            <!--“Red Cherry Fruit.” Free Stock Photos, www.pexels.com/photo/fruit-cherries-109274/. -->
+            <img class="img-fluid mx-auto d-block" src="cherries.jpg">
+            <button id="shop-btn" type="submit" class="btn btn-dark">Purchase</button>
+        </div>
+    </div>
+</div>
+    
+<div id="newletter-button" class="row">
+    <div class="col">
+        <button id="newsletter-btn" type="button" class="btn btn-dark mx-auto d-block justify-content-center" data-toggle="modal" data-target="#myModal">
+            Sign up for our newsletter to receive special offers and event notifications
+        </button>
+
+  <!-- The Modal -->
+        <div class="modal" id="myModal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+            <h4 class="modal-title">Enter your email to stay in the know</h4>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+            <div class="input-group mb-3">
+                <input type="email" class="form-control" placeholder="EMAIL:" id="email" class="required email">
+                <div class="input-group-append">
+                <button class="btn btn-dark" type="submit">Submit</button>
+                </div>
+            </div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+    </div>
+    
+</div>
+    
+<footer>
+        <div class="row">
+            <div class="col-lg-4">
+                <ul id="footer-links" class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link" href="http://gleishman.aisites.com/IMD312/final/shop.html">SHOP</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="http://gleishman.aisites.com/IMD312/final/locations.html">LOCATIONS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="http://gleishman.aisites.com/IMD312/final/subscriptions.html">SUBSCRIPTIONS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="http://gleishman.aisites.com/IMD312/final/wholesale.html">WHOLESALE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="http://gleishman.aisites.com/IMD312/final/careers.html">CAREERS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="http://gleishman.aisites.com/IMD312/final/FAQ.html">FAQ</a>
+                    </li>
+                </ul>
+            </div>
+                
+            <div class="col-lg-4 text-center">
+                <span>
+                    <a id="footer-logo" class="nav-link" href="index.html">ROOSTER'S<br>COFFEE CO.</a>
+                </span>
+            </div>
+            
+            <div class="col-lg-4">
+                <a href="https://www.facebook.com/"> <img id="social" class="rollover" src="facebook_off.png"/></a>
+                <a href="https://twitter.com/"> <img id="social" class="rollover" src="twitter_off.png"/></a>
+                <a href="https://www.instagram.com/"> <img id="social" class="rollover" src="instagram_off.png"/></a>
+                 <div class="imagesOn">
+                <img src="facebook_on.png"/>
+                <img src="twitter_on.png"/>
+                <img src="instagram_on.png"/>
+            </div>
+            </div>
+        </div> <!-- end footer row -->
+     <div class="row">
+        <div class="col">
+            <p id="copyright" class="text-center">Copyright Gordon Leishman All Right Reserved</p>
+        </div>
+    </div>
+</footer>
+        
+</div> <!-- end container -->
+    
+<!-- Bootstrap -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>    
+</body>
+
+</html>
